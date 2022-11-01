@@ -14,7 +14,6 @@
 
 }
 }
-@media (max-width: 480px){
 	.QuestionBody table tr td{
 		display:block;
 		clear:both;
@@ -25,4 +24,3 @@
 .Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .PGR .DragAndDrop .Items ul {width: 80% !important;}
 .Skin .PGR .DragAndDrop .stack div ul li.stack span label {width: 100% !important;padding: 0 1em;}
 	
-}
