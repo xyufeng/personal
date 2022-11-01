@@ -18,4 +18,8 @@
 		display:block;
 		clear:both;
 	}
+	.Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .PGR .DragAndDrop .Items ul{
+	width:100% !important;	
+	}
 }
+
