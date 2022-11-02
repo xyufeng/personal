@@ -1,26 +1,54 @@
-.Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div > div {width: 90% !important;}
-.Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div ul, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div h2 {width: 100% !important;}
-//.Skin .PGR .DragAndDrop h2 {font-size:10px !important; padding: 5px !important;}
-//.Skin .QuestionText { max-width:960px !important;}
-.Skin .PGR .DragAndDrop td.groupsContainerTd div>div {min-height:75px !important;}
-.Skin .PGR .DragAndDrop .Group>div>ul, .Skin .PGR .DragAndDrop .Items>ul {min-height: 75px !important;}
-//.Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .PGR .DragAndDrop .Items ul {width: 175px !important;}
-//.Skin .PGR .DragAndDrop .QuestionBody label {font-size:12px !important;}
-.Skin .PGR .DragAndDrop .rank, .Skin .RO .DND .rank {font-size: 12px !important;padding: 0px 6px !important;min-width: auto !important;}
-.Skin .PGR .DragAndDrop .QuestionBody .Group>div>ul>li, .Skin .RO .DND>ul>li {padding: 8px 2em 8px 30px !important;}
-@media (min-width: 480px){
-.Skin .QuestionBody {
-	max-width:100% !important;
+.Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div > div {
+    width: 90% !important;
+}
 
+.Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div ul, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div h2 {
+    width: 100% !important;
 }
+
+.Skin .PGR .DragAndDrop td.groupsContainerTd div>div {
+    min-height: 75px !important;
 }
-	.QuestionBody table tr td{
-		display:block;
-		clear:both;
-	}
-		.QuestionBody table{
-			width:100% !important;
-		}
-.Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .PGR .DragAndDrop .Items ul {width: 80% !important;}
-.Skin .PGR .DragAndDrop .stack div ul li.stack span label {width: 100% !important;padding: 0 1em;}
-	
+
+.Skin .PGR .DragAndDrop .Group>div>ul, .Skin .PGR .DragAndDrop .Items>ul {
+    min-height: 75px !important;
+}
+
+.Skin .PGR .DragAndDrop .rank, .Skin .RO .DND .rank {
+    font-size: 12px !important;
+    padding: 0px 6px !important;
+    min-width: auto !important;
+}
+
+.Skin .PGR .DragAndDrop .QuestionBody .Group>div>ul>li, .Skin .RO .DND>ul>li {
+    padding: 8px 2em 8px 30px !important;
+}
+
+@media (min-width: 480px) {
+    .Skin .QuestionBody {
+        max-width:100% !important;
+    }
+
+    .Skin .PGR .DragAndDrop .stack ul li.stack {
+        width: 50% !important;
+        left: 25% !important;
+    }
+}
+
+.QuestionBody table tr td {
+    display: block;
+    clear: both;
+}
+
+.QuestionBody table {
+    width: 100% !important;
+}
+
+.Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .PGR .DragAndDrop .Items ul {
+    width: 80% !important;
+}
+
+.Skin .PGR .DragAndDrop .stack div ul li.stack span label {
+    width: 100% !important;
+    padding: 0 1em;
+}
